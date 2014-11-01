@@ -1,0 +1,110 @@
+object main: Tmain
+  Left = 376
+  Height = 694
+  Top = 264
+  Width = 714
+  Caption = 'Piłka na Kartce, Michał Garmulewicz, IPP MIMUW 2014'
+  ClientHeight = 694
+  ClientWidth = 714
+  Color = 15461355
+  Constraints.MaxHeight = 694
+  Constraints.MaxWidth = 714
+  Constraints.MinHeight = 694
+  Constraints.MinWidth = 714
+  OnActivate = FormActivate
+  OnClose = FormClose
+  OnCreate = FormCreate
+  LCLVersion = '1.2.2.0'
+  object game_canvas: TPaintBox32
+    Left = 32
+    Height = 493
+    Top = 72
+    Width = 664
+    TabOrder = 0
+    OnMouseDown = game_canvasMouseDown
+  end
+  object nowPlayingLabel: TLabel
+    Left = 32
+    Height = 15
+    Top = 576
+    Width = 90
+    Caption = 'nowPlayingLabel'
+    ParentColor = False
+  end
+  object prevStick: TButton
+    Left = 32
+    Height = 33
+    Top = 600
+    Width = 152
+    Caption = 'Cofnij linię'
+    OnClick = prevStickClick
+    TabOrder = 1
+  end
+  object nextStick: TButton
+    Left = 192
+    Height = 33
+    Top = 600
+    Width = 152
+    Caption = 'Przywróć linię'
+    OnClick = nextStickClick
+    TabOrder = 2
+  end
+  object prevMove: TButton
+    Left = 32
+    Height = 32
+    Top = 640
+    Width = 152
+    Caption = 'Cofnij ruch'
+    OnClick = prevMoveClick
+    TabOrder = 3
+  end
+  object nextMove: TButton
+    Left = 192
+    Height = 33
+    Top = 640
+    Width = 152
+    Caption = 'Przywróć ruch'
+    OnClick = nextMoveClick
+    TabOrder = 4
+  end
+  object getHint: TButton
+    Left = 501
+    Height = 72
+    Top = 600
+    Width = 195
+    Caption = 'Podpowiedź'
+    OnClick = getHintClick
+    TabOrder = 5
+  end
+  object saveGame: TButton
+    Left = 493
+    Height = 49
+    Top = 8
+    Width = 203
+    Caption = 'Zapisz grę'
+    OnClick = saveGameClick
+    TabOrder = 6
+  end
+  object goToMainMenu: TButton
+    Left = 32
+    Height = 48
+    Top = 8
+    Width = 187
+    Caption = 'Powrót do Menu'
+    OnClick = goToMainMenuClick
+    TabOrder = 7
+  end
+  object goToEditor: TButton
+    Left = 256
+    Height = 48
+    Top = 8
+    Width = 203
+    Caption = 'Edytuj grę'
+    OnClick = goToEditorClick
+    TabOrder = 8
+  end
+  object SaveDialog1: TSaveDialog
+    left = 648
+    top = 32
+  end
+end

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="11">
+      <Unit0>
+        <Filename Value="project1.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="project1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="22"/>
+        <UsageCount Value="32"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="game_window.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="main"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="game_window"/>
+        <EditorIndex Value="2"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="278"/>
+        <CursorPos X="39" Y="300"/>
+        <UsageCount Value="32"/>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="editor.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="editor"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="editor"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="151"/>
+        <CursorPos X="21" Y="188"/>
+        <UsageCount Value="32"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="new_game_settings_code.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="new_game_settings"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="new_game_settings_code"/>
+        <EditorIndex Value="3"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="29"/>
+        <CursorPos X="35" Y="57"/>
+        <UsageCount Value="32"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="welcome_menu.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="welcome_window"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="welcome_menu"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="43"/>
+        <CursorPos X="43" Y="68"/>
+        <UsageCount Value="32"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="welcome_button_code.pas"/>
+        <ComponentName Value="welcome_window"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="welcome_button_code"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1178" Y="1"/>
+        <UsageCount Value="19"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="game_state.pas"/>
+        <UnitName Value="game_state"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="49" Y="242"/>
+        <UsageCount Value="15"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="..\IPP Testy\hellodialog.pas"/>
+        <UnitName Value="helloDialog"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="22"/>
+        <CursorPos X="6" Y="47"/>
+        <UsageCount Value="10"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="game_history.pas"/>
+        <UnitName Value="game_history"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="16"/>
+        <CursorPos X="10" Y="35"/>
+        <UsageCount Value="14"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="buffers.pas"/>
+        <UnitName Value="buffers"/>
+        <EditorIndex Value="1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="39" Y="10"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="player.pas"/>
+        <UnitName Value="player"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="2" Y="6"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit10>
+    </Units>
+    <General>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <JumpHistory Count="9" HistoryIndex="8">
+      <Position1>
+        <Filename Value="game_window.pas"/>
+        <Caret Line="294" Column="53" TopLine="266"/>
+      </Position1>
+      <Position2>
+        <Filename Value="player.pas"/>
+        <Caret Line="33" Column="40" TopLine="16"/>
+      </Position2>
+      <Position3>
+        <Filename Value="game_window.pas"/>
+        <Caret Line="190" Column="65" TopLine="162"/>
+      </Position3>
+      <Position4>
+        <Filename Value="game_window.pas"/>
+        <Caret Line="186" Column="13" TopLine="179"/>
+      </Position4>
+      <Position5>
+        <Filename Value="game_window.pas"/>
+        <Caret Line="285" Column="31" TopLine="256"/>
+      </Position5>
+      <Position6>
+        <Filename Value="game_window.pas"/>
+        <Caret Line="157" Column="39" TopLine="130"/>
+      </Position6>
+      <Position7>
+        <Filename Value="game_window.pas"/>
+        <Caret Line="161" Column="40" TopLine="134"/>
+      </Position7>
+      <Position8>
+        <Filename Value="game_window.pas"/>
+        <Caret Line="169" Column="39" TopLine="143"/>
+      </Position8>
+      <Position9>
+        <Filename Value="game_window.pas"/>
+        <Caret Line="279" Column="15" TopLine="254"/>
+      </Position9>
+    </JumpHistory>
+  </ProjectSession>
+  <EditorMacros Count="0"/>
+</CONFIG>

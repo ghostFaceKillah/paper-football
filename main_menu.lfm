@@ -1,0 +1,42 @@
+object menu: Tmenu
+  Left = 440
+  Height = 359
+  Top = 147
+  Width = 458
+  Caption = 'menu'
+  ClientHeight = 359
+  ClientWidth = 458
+  LCLVersion = '1.2.2.0'
+  object newgame: TButton
+    Left = 87
+    Height = 25
+    Top = 59
+    Width = 75
+    Caption = 'Nowa Gra'
+    TabOrder = 0
+  end
+  object open: TButton
+    Left = 90
+    Height = 25
+    Top = 138
+    Width = 75
+    Caption = 'Otwórz Grę'
+    TabOrder = 1
+  end
+  object edit: TButton
+    Left = 102
+    Height = 25
+    Top = 210
+    Width = 75
+    Caption = 'Edytor'
+    TabOrder = 2
+  end
+  object quit: TButton
+    Left = 96
+    Height = 25
+    Top = 258
+    Width = 75
+    Caption = 'Wyjdź'
+    TabOrder = 3
+  end
+end

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="/usr/local/bin/ppc386" Date="1393445779"/>
+  <Params Value=" -MDelphi -Sg -CX -O2 -g -gl -vewnhi &quot;-Fi/Users/misiu-dev/Downloads/IPP pilka z biblioteką Graphics32/Graphics32&quot; &quot;-Fu/Users/misiu-dev/Downloads/IPP pilka z biblioteką Graphics32/Graphics32&quot; &quot;-Fu/Users/misiu-dev/Downloads/IPP pilka z biblioteką Graphics32/Graphics32/Packages&quot; -Fu/Developer/lazarus/packager/units/i386-darwin -Fu/Developer/lazarus/components/lazutils/lib/i386-darwin -Fu/Developer/lazarus/lcl/units/i386-darwin -Fu/Developer/lazarus/lcl/units/i386-darwin/carbon -Fu/Developer/lazarus/components/lazcontrols/lib/i386-darwin/carbon -Fu/Developer/lazarus/components/ideintf/units/i386-darwin/carbon &quot;-Fu/Users/misiu-dev/Downloads/IPP pilka z biblioteką Graphics32/Graphics32/Packages/lib/i386-darwin/carbon&quot; &quot;-FU/Users/misiu-dev/Downloads/IPP pilka z biblioteką Graphics32/Graphics32/Packages/lib/i386-darwin/carbon/&quot; -l -dLCL -dLCLcarbon GR32_DSGN_L.pas"/>
+</CONFIG>

@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <Compiler Value="C:\Soft_x64\lazarus\fpc\2.6.2\bin\x86_64-win64\fpc.exe" Date="1125672322"/>
+  <Params Value=" -MDelphi -Sg -O1 -g -gl -vewnhi &quot;-FiC:\Users\mg304742\Downloads\Michał Garmulewicz 304742\IPP pilka\Graphics32&quot; &quot;-FuC:\Users\mg304742\Downloads\Michał Garmulewicz 304742\IPP pilka\Graphics32&quot; -FuC:\Soft_x64\lazarus\ideintf\units\x86_64-win64\win32 -FuC:\Soft_x64\lazarus\lcl\units\x86_64-win64\win32 -FuC:\Soft_x64\lazarus\lcl\units\x86_64-win64 -FuC:\Soft_x64\lazarus\components\lazutils\lib\x86_64-win64 -FuC:\Soft_x64\lazarus\packager\units\x86_64-win64 &quot;-FuC:\Users\mg304742\Downloads\Michał Garmulewicz 304742\IPP pilka\Graphics32\Packages\&quot; &quot;-FUC:\Users\mg304742\Downloads\Michał Garmulewicz 304742\IPP pilka\Graphics32\Packages\lib\x86_64-win64\win32\&quot; -l -dLCL -dLCLwin32 GR32_L.pas"/>
+</CONFIG>

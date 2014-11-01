@@ -1,0 +1,109 @@
+object new_game_settings: Tnew_game_settings
+  Left = 525
+  Height = 316
+  Top = 334
+  Width = 261
+  Caption = 'Ustawienia nowej gry'
+  ClientHeight = 316
+  ClientWidth = 261
+  Constraints.MaxHeight = 316
+  Constraints.MaxWidth = 261
+  Constraints.MinHeight = 316
+  Constraints.MinWidth = 261
+  OnActivate = FormActivate
+  LCLVersion = '1.2.2.0'
+  object height_input: TEdit
+    Left = 120
+    Height = 23
+    Top = 32
+    Width = 101
+    TabOrder = 0
+    Text = '10'
+  end
+  object width_input: TEdit
+    Left = 120
+    Height = 23
+    Top = 72
+    Width = 101
+    TabOrder = 1
+    Text = '8'
+  end
+  object up_player_choice: TComboBox
+    Left = 120
+    Height = 23
+    Top = 112
+    Width = 100
+    ItemHeight = 15
+    ItemIndex = 1
+    Items.Strings = (
+      'komputer'
+      'człowiek'
+    )
+    TabOrder = 2
+    Text = 'człowiek'
+  end
+  object down_player_choice: TComboBox
+    Left = 120
+    Height = 23
+    Top = 152
+    Width = 100
+    ItemHeight = 15
+    ItemIndex = 0
+    Items.Strings = (
+      'komputer'
+      'człowiek'
+    )
+    TabOrder = 3
+    Text = 'komputer'
+  end
+  object Button1: TButton
+    Left = 32
+    Height = 42
+    Top = 192
+    Width = 195
+    Caption = 'Graj!'
+    OnClick = Button1Click
+    TabOrder = 4
+  end
+  object Label1: TLabel
+    Left = 32
+    Height = 15
+    Top = 32
+    Width = 53
+    Caption = 'Wysokość'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 32
+    Height = 15
+    Top = 72
+    Width = 52
+    Caption = 'Szerokość'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 32
+    Height = 15
+    Top = 112
+    Width = 73
+    Caption = 'Gracz do góry'
+    ParentColor = False
+  end
+  object Label4: TLabel
+    Left = 32
+    Height = 15
+    Top = 152
+    Width = 61
+    Caption = 'Gracz w dół'
+    ParentColor = False
+  end
+  object Button2: TButton
+    Left = 32
+    Height = 42
+    Top = 247
+    Width = 195
+    Caption = 'Powrót do Menu'
+    OnClick = Button2Click
+    TabOrder = 5
+  end
+end

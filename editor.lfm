@@ -1,0 +1,125 @@
+object editor: Teditor
+  Left = 419
+  Height = 736
+  Top = 91
+  Width = 701
+  Caption = 'Edytor planszy'
+  ClientHeight = 736
+  ClientWidth = 701
+  Constraints.MaxHeight = 736
+  Constraints.MaxWidth = 701
+  Constraints.MinHeight = 736
+  Constraints.MinWidth = 701
+  OnActivate = FormActivate
+  LCLVersion = '1.2.2.0'
+  object edit_canvas: TPaintBox32
+    Left = 16
+    Height = 503
+    Top = 56
+    Width = 664
+    TabOrder = 0
+    OnMouseDown = edit_canvasMouseDown
+  end
+  object nowEditing: TComboBox
+    Left = 168
+    Height = 23
+    Top = 602
+    Width = 120
+    ItemHeight = 15
+    ItemIndex = 1
+    Items.Strings = (
+      'Przekątne'
+      'Przeciwprzekątne'
+      'Pionowe'
+      'Poziome'
+      'Kropki'
+      'Pozycja piłki'
+    )
+    OnChange = nowEditingChange
+    TabOrder = 1
+    Text = 'Przeciwprzekątne'
+  end
+  object now_editing_label: TLabel
+    Left = 28
+    Height = 15
+    Top = 602
+    Width = 108
+    Caption = 'Obecnie edytowane:'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 33
+    Height = 15
+    Top = 657
+    Width = 61
+    Caption = 'Tura gracza'
+    ParentColor = False
+  end
+  object nowPlaying: TComboBox
+    Left = 168
+    Height = 23
+    Top = 649
+    Width = 120
+    ItemHeight = 15
+    Items.Strings = (
+      'do góry'
+      'na dół'
+    )
+    OnChange = nowPlayingChange
+    TabOrder = 2
+    Text = 'nowPlaying'
+  end
+  object back_to_game: TButton
+    Left = 16
+    Height = 41
+    Top = 8
+    Width = 196
+    Caption = 'Powrót do gry'
+    OnClick = back_to_gameClick
+    TabOrder = 3
+  end
+  object Label1: TLabel
+    Left = 376
+    Height = 15
+    Top = 608
+    Width = 101
+    Caption = 'Typ gracza do góry'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 376
+    Height = 15
+    Top = 649
+    Width = 89
+    Caption = 'Typ gracza w dół'
+    ParentColor = False
+  end
+  object up_player_type: TComboBox
+    Left = 488
+    Height = 23
+    Top = 602
+    Width = 120
+    ItemHeight = 15
+    Items.Strings = (
+      'człowiek'
+      'komputer'
+    )
+    OnChange = up_player_typeChange
+    TabOrder = 4
+    Text = 'up_player_type'
+  end
+  object down_player_type: TComboBox
+    Left = 488
+    Height = 23
+    Top = 648
+    Width = 120
+    ItemHeight = 15
+    Items.Strings = (
+      'człowiek'
+      'komputer'
+    )
+    OnChange = down_player_typeChange
+    TabOrder = 5
+    Text = 'down_player_type'
+  end
+end

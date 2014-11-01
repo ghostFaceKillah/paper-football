@@ -1,0 +1,11 @@
+
+# hash value = 246661550
+gr32.rcstrunmatchedreferencecounting='Unmatched reference counting.'
+
+
+# hash value = 32611271
+gr32.rcstrcannotsetsize='Can'#39't set size from '#39'%s'#39
+
+# hash value = 14101284
+gr32.rcstrinpropriatebackend='Inpropriate Backend'
+
